@@ -5,6 +5,7 @@
   "printWidth": 120,
   "endOfLine": "auto",
   "singleQuote": true,
+  "editorconfig": true,
   "bracketSpacing": true,
   "trailingComma": "all",
   "arrowParens": "always",

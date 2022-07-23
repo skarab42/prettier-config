@@ -1,6 +1,6 @@
 {
   "name": "@skarab/prettier-config",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "description": "My shared Prettier config",
   "author": {
     "name": "skarab42",
@@ -15,6 +15,17 @@
   "funding": "https://github.com/sponsors/skarab42",
   "license": "MIT",
   "main": ".prettierrc.json",
+  "scripts": {
+    "prepare": "npx simple-git-hooks",
+    "semantic-release": "semantic-release --branches main",
+    "format": "prettier **/*.{json,md} --write --ignore-path .gitignore"
+  },
+  "devDependencies": {
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "semantic-release": "^19.0.3",
+    "simple-git-hooks": "^2.8.0"
+  },
   "peerDependencies": {
     "prettier": "*"
   },

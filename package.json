@@ -1,0 +1,26 @@
+{
+  "name": "@skarab/prettier-config",
+  "version": "0.1.0",
+  "description": "My shared Prettier config",
+  "author": {
+    "name": "skarab42",
+    "email": "contact@skarab42.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skarab42/prettier-config.git"
+  },
+  "homepage": "https://github.com/skarab42/prettier-config",
+  "bugs": "https://github.com/skarab42/prettier-config/issues",
+  "funding": "https://github.com/sponsors/skarab42",
+  "license": "MIT",
+  "main": ".prettierrc.json",
+  "peerDependencies": {
+    "prettier": "*"
+  },
+  "keywords": [
+    "prettier",
+    "config",
+    "prettier-config"
+  ]
+}

@@ -19,6 +19,9 @@
     "access": "public"
   },
   "main": ".prettierrc.json",
+  "files": [
+    ".prettierrc.json"
+  ],
   "scripts": {
     "prepare": "npx simple-git-hooks",
     "semantic-release": "semantic-release --branches main",

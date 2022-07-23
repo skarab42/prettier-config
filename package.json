@@ -14,6 +14,10 @@
   "bugs": "https://github.com/skarab42/prettier-config/issues",
   "funding": "https://github.com/sponsors/skarab42",
   "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "main": ".prettierrc.json",
   "scripts": {
     "prepare": "npx simple-git-hooks",

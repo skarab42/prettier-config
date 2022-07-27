@@ -34,7 +34,7 @@
     "simple-git-hooks": "^2.8.0"
   },
   "peerDependencies": {
-    "prettier": "*"
+    "prettier": ">=2"
   },
   "keywords": [
     "prettier",
